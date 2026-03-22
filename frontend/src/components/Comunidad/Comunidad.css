@@ -1,0 +1,176 @@
+.comunidad {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comunidad .contenedor {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.comunidad p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.comunidad .izquierda,
+.comunidad .derecha {
+    flex: 1;
+    text-align: center;
+}
+
+.comunidad .izquierda {
+    order: 1;
+}
+
+.comunidad .derecha {
+    order: 2;
+}
+
+.comunidad .izquierda img {
+    max-height: 20vh;
+    width: auto;
+}
+
+.comunidad .derecha img {
+    max-height: 5vh;
+    width: auto;
+}
+
+
+.comunidad .parte-superior {
+    background-color: #3498db;
+    width: 100%;
+}
+
+
+.comunidad .secciones {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    height: 78.5vh;
+}
+
+.comunidad .seccion1 {
+    border-right: 1px solid #ccc;
+}
+
+.comunidad .secciones .seccion1 .popular {
+    border-bottom: 1px solid #ccc;
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.comunidad .popular .imagen img {
+    max-width: 10vh;
+    margin-left: 70%;
+    object-fit: cover;
+}
+
+.comunidad .secciones .seccion1 .popular .texto {
+    margin-left: 15%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.comunidad .popular2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comunidad .popular2 p {
+    color: #242331;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+.comunidad .popular2 .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comunidad .popular2 .item .imagen img {
+    max-width: 10vh;
+    object-fit: cover;
+}
+
+.comunidad .popular2 .item .texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.comunidad .seccion2 {
+    background: #fff;
+    padding: 20px;
+}
+
+.comunidad .comentario {
+    background: rgba(211, 211, 211, 0.24);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comunidad .avatar {
+    display: flex;
+    /* Establece un contenedor flexible para la imagen y el nombre */
+    align-items: center;
+    /* Alinea verticalmente la imagen y el nombre */
+    margin-bottom: 5px;
+}
+
+.comunidad .avatar img {
+    border-radius: 50%;
+    background: #E3E3E3;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.comunidad .nombre-usuario {
+    font-weight: bold;
+}
+
+.comunidad .contenido-comentario {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.comunidad .boton-comentar {
+    margin-top: auto;
+    /* Empuja el botón hacia la parte inferior */
+    align-self: flex-end;
+    /* Alinea el botón a la derecha */
+    background: #E3E3E3;
+    border-radius: 39px;
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comunidad .boton-comentar img {
+    margin-right: 5px;
+}

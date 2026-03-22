@@ -1,0 +1,50 @@
+:root{
+    --color-prueba: #ffefd8;
+    --color-white: hsl(252, 30%, 100%);
+    --color-light: hsl(40, 100%, 97%);
+    --color-gray: hsl(240, 3%, 71%);
+    --color-primary: #FF3636;
+    --color-secondary: #ffd56b;
+    --color-terciary:  hsl(0, 100%, 44%);
+    --color-dark: hsl(252, 30%, 17%);
+    --color-black: hsl(252, 30%, 10%);
+    --color-success: hsl(120, 95%, 65%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    overflow-x: hidden;
+}

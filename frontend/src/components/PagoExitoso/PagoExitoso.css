@@ -1,0 +1,91 @@
+.PagoE {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*Estilo para el logo*/
+.PagoE #logo img {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 8vh;
+}
+
+
+.PagoE .main {
+    background: #D5D5D6;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 30px;
+}
+
+.PagoE .resumen {
+    margin: 0 auto;
+    background: #FFFFFF;
+    width: 1000px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.PagoE button {
+    background-color: #FF3636;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 10px;
+    width: 400px;
+    margin-left: 32%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.PagoE button:hover {
+    background-color: rgb(255, 171, 171);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.PagoE .main .titulo {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-left: 40%;
+    padding: 10px;
+    font-size: 200%;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+}
+
+.PagoE h2 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 44%;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+}
+
+.PagoE .icono {
+    font-size: 280px;
+    margin-left: 38%;
+}
+
+.PagoE {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.PagoE main .container {
+    display: grid;
+    grid-template-columns: 10vw auto 10vw;
+    position: relative;
+
+}

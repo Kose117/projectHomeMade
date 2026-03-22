@@ -1,0 +1,106 @@
+.Bienvenida .login .bienvenido {
+    position: absolute;
+    font-size: 60px;
+    top: 27%;
+    /* Ajusta la posición vertical según tu preferencia */
+    left: 15%;
+    /* Posiciona el encabezado a la izquierda */
+}
+
+.Bienvenida .login .homeMade {
+    position: absolute;
+    font-size: 60px;
+    top: 35%;
+    /* Ajusta la posición vertical según tu preferencia */
+    left: 13%;
+    /* Posiciona el encabezado a la izquierda */
+}
+
+.Bienvenida form {
+    display: block;
+    /* Hace que los elementos se muestren en una columna vertical */
+    /* Espacio entre los botones y el formulario (opcional) */
+    position: absolute;
+    top: 40%;
+    right: 320px;
+    /* Posiciona el formulario en la parte superior derecha de la pantalla */
+}
+
+.Bienvenida form label,
+.Bienvenida form input,
+.Bienvenida form button {
+    display: block;
+    /* Coloca cada elemento en su propia línea */
+    margin-bottom: 10px;
+    /* Espacio entre los elementos (opcional) */
+}
+
+.Bienvenida .login form button[type="submit"] {
+    background-color: red;
+    /* Fondo rojo */
+    color: white;
+    /* Letra blanca */
+    border: none;
+    /* Quita los bordes */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interno para separar el texto del borde */
+}
+
+
+.Bienvenida .logo img {
+    width: 14vh;
+    height: 14vh;
+    margin-left: 8vh;
+}
+
+.Bienvenida .manosImg {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    width: 300px;
+    /* Cambia el ancho de la imagen */
+    height: auto;
+    /* Mantén la proporción de aspecto original */
+}
+
+.Bienvenida .fondo-rojo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #FF3636;
+    /* Color de fondo rojo */
+    font-size: 40px;
+    border-radius: 40px;
+    /* Bordes redondeados (ajusta el valor según tus preferencias) */
+    /* Espaciado interno para separar el contenido del borde */
+    width: 70vh;
+    height: 50vh;
+    /* Ancho máximo deseado */
+    word-wrap: break-word;
+    /* Control de ruptura de palabras */
+    top: 35%;
+    right: 8%;
+    color: #FFFFFF;
+}
+
+.Bienvenida .fondo-rojo p{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Bienvenida .fondo-rojo .buttons{
+    right: 2rem;
+    bottom: 2rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.Bienvenida .fondo-rojo .buttons button{
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}

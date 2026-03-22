@@ -1,0 +1,119 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.iniciarSesionPapa2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.iniciarSesionPapa2 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vh;
+    right: 5%;
+    top: 10vh;
+    position: absolute;
+}
+
+
+
+.iniciarSesionPapa2 .login2 form button[type="submit"] {
+    background-color: #FF3636;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.iniciarSesionPapa2 .login2 form input,
+.iniciarSesionPapa2 .login2 form button,
+.iniciarSesionPapa2 .login2 form select {
+    border-radius: 15px;
+    height: 6vh;
+    border: none;
+    background-color: #FFECEC;
+    text-align: left;
+    padding-left: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: calc(0.2em + 0.8vw);
+}
+
+.iniciarSesionPapa2 .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.iniciarSesionPapa2 .login2 .registrarUsuario h1 {
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    border: solid;
+}
+
+.iniciarSesionPapa2 label,
+.iniciarSesionPapa2 input {
+    margin: 5px;
+}
+
+/* Estilos para los botones */
+.iniciarSesionPapa2 .form-group2 button {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19vh;
+    margin-top: 0%;
+    border: solid;
+}
+
+.iniciarSesionPapa2 .login form button[type="submit"] {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+}
+
+.iniciarSesionPapa2 .soyProfesional a {
+    text-decoration: none;
+}
+
+.iniciarSesionPapa2 form label,
+.iniciarSesionPapa2 form input,
+.iniciarSesionPapa2 form button {
+    display: block;
+    width: 35vh;
+    height: 40%;
+}
+
+.iniciarSesionPapa2 .registrarUsuario {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    font-size: calc(0.2em + 1.5vw);
+}
+
+.iniciarSesionPapa2 .soyProfesional a,
+.iniciarSesionPapa2 .regis a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.iniciarSesionPapa2 .buttons button:last-child {
+    background: transparent !important;
+    border: #e30101 !important;
+    box-shadow: none !important;
+}
+
+.iniciarSesionPapa2 .buttons button:last-child:hover {
+    border-bottom: antiquewhite !important;
+}
+
+.iniciarSesionPapa2 .buttons button:first-child {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.iniciarSesionPapa2 .buttons button:first-child:hover {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,212 @@
+.agendar {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.agendar .imagen-contenedor {
+    width: 30vh;
+    height: 15vh;
+    margin-left: 8vh;
+    margin-bottom: 10vh;
+    overflow: initial;
+    /* Ocultar el desbordamiento de la imagen */
+    display: flex;
+    /* Usa el modelo de caja flexible para centrar */
+    align-items: center;
+    /* Centrar verticalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    position: relative;
+}
+
+.agendar .imagen-contenedor img {
+    width: 100%;
+    /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;
+    /* Permite que la imagen mantenga su proporción original */
+    position: absolute;
+    /* Permite ajustar la posición de la imagen dentro del contenedor */
+    top: 0;
+    /* Alinea la parte superior de la imagen con la parte superior del contenedor */
+    left: 0;
+    /* Alinea la parte izquierda de la imagen con la parte izquierda del contenedor */
+}
+
+/*Estilo para el logo*/
+.agendar .logo img {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 8vh;
+    object-fit: cover;
+}
+
+/*Estilo para el formulario*/
+
+.agendar .column-form .column {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agendar #login h1 {
+    position: absolute;
+    top: 15% !important;
+}
+
+.agendar .column-form .column label,
+.agendar input,
+.agendar select {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 20px;
+    height: 40px;
+    border: transparent;
+    padding: 5px;
+}
+
+
+/*estilo boton agendar*/
+
+.agendar .agendar {
+    border-color: white;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    padding: 10px;
+    width: 200px;
+    margin-left: 43%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.agendar .agendar:hover {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/**/
+
+.agendar label {
+    color: #FFFFFF;
+}
+
+.agendar .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    background: #FFFFFF;
+    padding: 1vh 3vh 1vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 60%;
+    margin-right: 10%;
+    margin-left: 0;
+}
+
+
+.agendar .main {
+    background: #FF3636;
+    border-radius: 50px;
+    width: 90%;
+    margin: 5%;
+    margin-top: 2%;
+}
+
+.agendar .foto-profesional {
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.agendar .main .info-profesional {
+    display: flex;
+    padding-right: 15vh;
+    top: 0;
+}
+
+.agendar .main .info-profesional .nombre-profesional {
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 200%;
+    color: #FFFFFF;
+}
+
+.agendar .agendar-con {
+    margin-left: 40%;
+}
+
+/* Estilos CSS en styles.css */
+
+.agendar .column-form {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.agendar .column {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+.agendar .colum-form label,
+.agendar input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------------------*/
+
+.agendar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.agendar a {
+    text-decoration: none;
+}
+
+
+.agendar .main .container {
+    display: grid;
+    grid-template-columns: 10vw auto 10vw;
+    position: relative;
+
+}
+
+
+.agendar .rating-box {
+    position: relative;
+    background: #fff;
+    padding: 1vh 3vh 1vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 35.5%;
+
+    left: 200%;
+}
+
+.agendar .rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.agendar .stars i {
+    color: #e6e6e6;
+    font-size: 2.3vh;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.agendar .stars i.active {
+    color: #ffc978;
+}

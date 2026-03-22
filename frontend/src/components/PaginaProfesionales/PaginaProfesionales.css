@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.Profes {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Profes body::-webkit-scrollbar {
+    width: 15px;
+}
+
+.Profes body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.Profes body::-webkit-scrollbar-thumb {
+    background-color: #FF3636;
+    border-radius: 100px;
+}
+
+.Profes nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Profes .container {
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.Profes .container ::-webkit-scrollbar {
+    width: 15px;
+}
+
+.Profes .container ::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.Profes .container ::-webkit-scrollbar-thumb {
+    background-color: #FF3636;
+    border-radius: 100px;
+}
+
+
+.Profes main .container {
+    display: grid;
+    grid-template-columns: 20vw auto;
+    position: relative;
+
+}
+
+.Profes main {
+    flex: 1;
+    display: flex;
+}
+
+.Profes .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.Profes .right {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 5vh;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin-left: 5vh;
+}
+
+
+
+
+
+.Profes #logo img {
+    width: 14vh;
+    height: 14vh;
+    margin-left: 8vh;
+}
+
+.Profes h1 {
+    width: 70vw;
+    font-size: 4.2vh;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 96%;
+    }
+
+    main .container {
+        grid-template-columns: 5rem auto 30vw;
+        gap: 1rem
+    }
+
+    .left {
+        width: 5rem;
+        z-index: 5;
+    }
+
+    main .container .left .profile {
+        display: none;
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    .left .btn {
+        display: none;
+    }
+}
+
+.Profes .card {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 280px;
+    height: 250px;
+}
+
+.Profes .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Profes .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    object-fit: cover;
+    margin-right: 1vh;
+}
+
+.Profes .verification {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.Profes .info h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+}
+
+.Profes .info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #888;
+}
+
+.Profes .actions {
+    display: flex;
+    gap: 2rem;
+    border-radius: 15px;
+}
+
+.Profes .actions .box{
+    background-color: red;
+    padding:  .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.Profes .address-block {
+    display: flex;
+    justify-content: center;
+}
+
+.Profes .rating-box {
+    position: relative;
+    background: #fff;
+    padding: 1vh 3vh 1vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Profes .rating-box .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Profes .rating-box .stars svg{
+    color: gold;
+
+}
+
+
+.Profes .form-container {
+    background-color: #FF4747;
+    border-radius: 25px;
+    padding: 20px;
+    width: 35vh;
+
+}
+
+.Profes .form-item {
+    margin-top: 2vh;
+    color: white;
+    font-weight: bold;
+}
+
+.Profes select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1vh;
+    border: none;
+    border-radius: 5px;
+}
+
+.Profes a svg {
+    color: white;
+    height: 1.5rem;
+    width: 2rem;
+}

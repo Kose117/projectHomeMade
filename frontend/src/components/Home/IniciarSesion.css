@@ -1,0 +1,174 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Agrega más estilos según sea necesario */
+
+.iniciarSesionPapa2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iniciarSesionPapa2 .nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.iniciarSesionPapa2 .top-menu2 {
+    width: 50%;
+    margin-left: 15%;
+    background-color: #ECEBEB;
+    border-radius: 40px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.2em + 1vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.iniciarSesionPapa2 .top-menu2 li {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-weight: 500;
+}
+
+.iniciarSesionPapa2 .top-menu2 a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iniciarSesionPapa2 .capsula-botones {
+    margin-right: 28vh;
+}
+
+.iniciarSesionPapa2 .buttons2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciarSesionPapa2 .buttons2 button {
+    color: #FF3636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    width: 80%;
+    height: 100%;
+    padding: 1.5rem;
+    font-weight: 500;
+    font-size: calc(0.2em + 0.8vw);
+}
+
+.iniciarSesionPapa2 .buttons2 button:first-child {
+    background-color: transparent;
+    border: #e30101;
+}
+
+.iniciarSesionPapa2 .buttons2 button:last-child {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.iniciarSesionPapa2 .buttons2 button:last-child:hover {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el botón "Registrarse" */
+.iniciarSesionPapa2 .registrarse a:link,
+.iniciarSesionPapa2 .registrarse a:visited {
+    color: #FF3636;
+    text-decoration: none;
+}
+
+.iniciarSesionPapa main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.iniciarSesionPapa2 .login2 {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciarSesionPapa2 form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+    width: 30%;
+    margin:auto;
+}
+
+
+.iniciarSesionPapa2 .login2 form button[type="submit"] {
+    background-color: #FF3636;
+    color: white;
+    padding: 10px 20px;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+.iniciarSesionPapa2 .login2 form input:hover,
+.iniciarSesionPapa2 .login2 form select:hover {
+    background-color: #fcd8d8;
+
+}
+
+.iniciarSesionPapa2 .login2 form button:hover {
+    background-color: #e30101;
+}
+
+.iniciarSesionPapa2 .logo2{
+    position: relative;
+    flex: 1;
+}
+
+
+.iniciarSesionPapa2 .logo2 img {
+    top: 15%;
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 30%;
+    height: auto;
+}
+
+.iniciarSesionPapa2 .iniciarSesion {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.iniciarSesionPapa2 .recuperar {
+    display: flex;
+    color: #888;
+    justify-content: right;
+}

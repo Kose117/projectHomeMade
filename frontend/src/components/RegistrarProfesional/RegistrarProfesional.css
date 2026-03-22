@@ -1,0 +1,9 @@
+.RegistrarProfesional form {
+    top: 24% !important;
+}
+
+.RegistrarProfesional #RegistrarProfesional {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}

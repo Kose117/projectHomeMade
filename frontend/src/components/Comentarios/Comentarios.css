@@ -1,0 +1,142 @@
+.comment {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.comment .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment .main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.comment .logo img {
+    width: 14vh;
+    height: 14vh;
+    margin-left: 8vh;
+}
+
+.comment .card-container {
+    display: flex;
+    background-color: #f6f5f5;
+    border-radius: 15px;
+    padding: 20px;
+    width: 160vh;
+    /* o cualquier otro valor que prefieras */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 95%;
+    /* Ocupar máximo el 95% del ancho de la pantalla */
+    height: 65vh;
+}
+
+.comment .comenti {
+    margin-top: 1vh;
+    justify-content: left;
+    display: flex;
+    margin-left: 13vh;
+}
+
+.comment .profile-section {
+    flex: 0.5;
+    text-align: center;
+    border-right: 3px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment .profile-image {
+    width: 15vh;
+    height: 15vh;
+    /* object-fit se usa para que la imagen siempre ocupe el mismo espacio */
+    object-fit: cover;
+    border-radius: 40%;
+    margin-bottom: 3vh;
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.18);
+    object-fit: cover;
+}
+
+.comment .card-container p span {
+    font-weight: bold;
+}
+
+.comment .carga {
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.comment h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.comment p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+
+.comment .comments-section {
+    flex: 1;
+    text-align: center;
+}
+
+.comment textarea {
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.comment .upload-section {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+
+}
+
+
+.comment button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+
+.comment textarea {
+
+    width: 80vh;
+    /* Establece el ancho del textarea */
+    height: 27vh;
+    /* Establece la altura del textarea (opcional) */
+    resize: none;
+    /* Deshabilita la redimension del textarea por el usuario */
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 3vh;
+    padding: 10px;
+    /* Ajusta el espacio uniforme alrededor del contenido */
+    line-height: 1.5;
+}
+
+.comment .seleccionar {
+    background-color: #FF3636;
+    color: white;
+    border-radius: 4vh;
+    border: none;
+    padding: 2vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    cursor: pointer;
+}
